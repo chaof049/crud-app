@@ -14,6 +14,7 @@ import {Crud} from '../models/crud.model';
 import {CrudRepository} from '../repositories/crud.repository';
 
 
+
 @authenticate('jwt')
 export class CrudController {
   constructor(
